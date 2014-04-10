@@ -9,7 +9,7 @@ You will naturally be using this tool to assist in either intrusion detection or
 
 Example Usage
 =============
-
+```
 php find.php /path/to/a/bunch/of/php/sites > infected.txt
 ...
 Processed 3950000 files, found 30
@@ -21,3 +21,4 @@ php remove.php infected.txt
 Processing file 28 of 30 (%93.33)
 Processing file 29 of 30 (%96.66)
 Processing file 30 of 30 (%100)
+```
