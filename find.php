@@ -24,7 +24,7 @@
     https://github.com/Orbixx/Obfuscalp
 */
 
-if (empty($argv[1])) die("Usage: php find.php directory_to_scan > infected.txt");
+if (empty($argv[1])) die("Usage: php find.php directory_to_scan > infected.txt\n");
 else {
         fwrite(STDERR, "Scanning " . $argv[1] . " for potential obfuscated malware...\n\n");
         $data = array();

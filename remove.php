@@ -24,7 +24,7 @@
     https://github.com/Orbixx/Obfuscalp
 */
 
-if (empty($argv[1])) die("Usage: php remove.php infected.txt");
+if (empty($argv[1])) die("Usage: php remove.php infected.txt\n");
 $handle = fopen($argv[1], "r"); // Open infected list read only
 if ($handle) {
         $c = 0; // Counter for processed files
