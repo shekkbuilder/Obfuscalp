@@ -1,7 +1,7 @@
 Obfuscalp
 =========
 
-Finds and removes suspicious/malicious code planted inside PHP and other scripts. It will not detect plainly coded malware at this time. In its current state, it may produce false-positives due to its primitiveness, so please manually check each detected file before processing it with remove.php.
+Finds and removes obfuscated suspicious/malicious code planted inside PHP and other scripts. It will not detect plainly coded malware at this time. In its current state, it may produce false-positives due to its primitiveness, so please manually check each detected file before processing it with remove.php.
 
 This file *does not* ask to confirm your command before executing. You have been warned. Keep backups.
 
